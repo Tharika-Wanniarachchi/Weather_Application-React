@@ -253,10 +253,6 @@ button{
 
 /* For tablets and smaller desktops */
 @media (max-width: 1024px) {
-    .page_container {
-        /* Adjustments for tablets */
-    }
-    
     .checkWeather {
         display:flex;
         flex-direction:column;
