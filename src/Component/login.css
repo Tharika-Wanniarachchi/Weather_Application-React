@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'poppins',sans-serif;
+}
+.login {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    margin:100px auto;
+    background:#CAF4FF;
+    margin: 0;
+    padding: 0;
+    width:100%;
+    height: 100vh;
+
+}
+.formSec{
+    width: 100%;
+    background: linear-gradient(170deg,#FFF9D0,#CAF4FF,#A0DEFF,#5AB2FF);
+    margin: 50px auto;
+    padding: 60px;
+    border-radius: 20px;
+    box-shadow: 10px 10px #A0DEFF;
+    justify-content:center;
+    text-align: center;
+
+
+}
+.inputSec{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: space-around;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.logImg img{
+    width:300px
+}
+
+button{
+    cursor: pointer;
+}
+
+input{
+    width: 100%;
+    height: 50px!important;
+    padding: 10px 25px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    background: #ffffff84;    
+    box-shadow:inset 5px 5px 10px 1px #4d96e169;
+    color: #2d2d2dd2;
+    font-size: 17px;
+    margin: 10px;
+    flex: 1;
+}
+
+.logBtn{
+   
+    height: 50px!important;
+    padding: 8px 35px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    background: #003871;
+    box-shadow: inset 5px 5px 10px 1px #4d96e169;
+    color: #ffff;
+    font-size: 17px;
+    margin: 10px;
+    flex: 1;
+}
