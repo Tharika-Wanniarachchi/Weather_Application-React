@@ -81,7 +81,7 @@ const Weather = () => {
             setForecastData(dailyForecast);
 
             // Process the forecast data for the full week
-            const fullForecastData = forecastData.list.filter((entry, index) => index % 8 === 0).slice(1, 8).map(entry => ({
+            const fullForecastData = forecastData.list.filter((entry, index) => index % 8 === 0).slice(0, 8).map(entry => ({
                 date: entry.dt_txt,
                 temperature: Math.floor(entry.main.temp),
                 icon: allWeatherIcon[entry.weather[0].icon] || 'https://openweathermap.org/img/wn/01d@2x.png',
